@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>semana 32</title>
+</head>
+<body>
+			<style>
+				body{
+					background: teal;
+					font-family: cursive;	
+				}
+				.pantera{
+					background: black;
+					color: white;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					padding-right: 20px;
+					padding-left: 20px;
+					width: 250px;
+					position: absolute;
+					top: 300px;
+					left: 500px;
+					border: 5px solid;
+					border-radius: 10px;
+					box-sizing: border-box;
+				}
+				.carmesi
+				{
+					background: black;
+					color: white;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					padding-right: 20px;
+					padding-left: 20px;
+					width: 250px;
+					height: 100px;
+					position: absolute;
+					top: 100px;
+					left: 500px;
+					border: 5px solid;
+					border-radius: 10px;
+					box-sizing: border-box;
+					font-size: 30px;	
+				}
+				.vaso
+				{
+					text-decoration: none;
+					color: white;
+					font-size: 35px;
+					position: absolute;
+					top: 200px;
+					left: 1px;
+				}
+			</style>
+	<input type="text" id="muerte" class="raa" placeholder="Numero">
+	<input type="text" id="loco" class="raaa" placeholder="Nombres">
+	<div class="carmesi" onclick="gru()">Mostrar</div>										
+	<a href="personero.html" class="vaso">2. Tarea</a>
+	<div class="pantera" id="cuadro"></div>	
+
+
+		<script>
+			function gru()
+			{
+				n1=Number(muerte.value);
+				nom=(loco.value);
+				nuevot=n1+" "+nom;
+				conte=cuadro.innerHTML;
+				conte=conte+nuevot;
+				cuadro.innerHTML=" "+conte+"   ";
+				console.log(nom);
+			}
+
+		</script>
+
+</body>
+</html>
